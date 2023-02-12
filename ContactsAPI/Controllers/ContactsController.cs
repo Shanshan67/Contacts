@@ -18,7 +18,7 @@ namespace ContactsAPI.Controllers
             this.dbContext = dbContext;
         }
 
-        public ContactsAPIDbContext DbContext { get; }
+        //public ContactsAPIDbContext DbContext { get; }
 
         [HttpGet]
         public async Task<IActionResult> GetContacts()
