@@ -20,6 +20,7 @@ namespace ContactsAPI.Controllers
 
         //public ContactsAPIDbContext DbContext { get; }not in the original codes
 
+
         [HttpGet]
         public async Task<IActionResult> GetContacts()
         {
@@ -88,16 +89,3 @@ namespace ContactsAPI.Controllers
         }
 
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 331f38051b61a91b7131de62415787410f054721
-=======
-}
->>>>>>> 331f38051b61a91b7131de62415787410f054721
-=======
-}
->>>>>>> 331f38051b61a91b7131de62415787410f054721
